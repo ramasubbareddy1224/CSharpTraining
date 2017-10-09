@@ -1,0 +1,5 @@
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.exe.config
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.exe
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.pdb
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining\obj\Debug\CSharpTraining.exe
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining\obj\Debug\CSharpTraining.pdb
