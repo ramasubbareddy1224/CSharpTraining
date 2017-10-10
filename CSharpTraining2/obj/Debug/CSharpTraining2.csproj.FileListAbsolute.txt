@@ -1,0 +1,8 @@
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\bin\Debug\CSharpTraining2.exe.config
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\bin\Debug\CSharpTraining2.exe
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\bin\Debug\CSharpTraining2.pdb
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\obj\Debug\CSharpTraining2.csprojResolveAssemblyReference.cache
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\obj\Debug\CSharpTraining2.exe
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\obj\Debug\CSharpTraining2.pdb
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\bin\Debug\ClassLibrary1.dll
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining2\bin\Debug\ClassLibrary1.pdb

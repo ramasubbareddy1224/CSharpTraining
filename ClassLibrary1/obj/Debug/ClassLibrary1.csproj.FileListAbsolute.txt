@@ -1,0 +1,5 @@
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
