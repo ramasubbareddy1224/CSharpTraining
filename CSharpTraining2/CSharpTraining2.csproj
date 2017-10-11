@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining2.AccessSpecifier</StartupObject>
+    <StartupObject>CSharpTraining2.MainMethod</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,10 @@
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="AccessSpecifierMethods.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="ConstructorExample.cs" />
+    <Compile Include="ConstructorExample2.cs" />
     <Compile Include="DerivedAccessSpecifierMethods.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MainMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
