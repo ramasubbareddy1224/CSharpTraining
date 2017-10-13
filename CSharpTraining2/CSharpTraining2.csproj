@@ -53,6 +53,8 @@
     <Compile Include="ConstructorExample2.cs" />
     <Compile Include="DerivedAccessSpecifierMethods.cs" />
     <Compile Include="MainMethod.cs" />
+    <Compile Include="MethodOverload.cs" />
+    <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
