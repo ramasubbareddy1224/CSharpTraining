@@ -49,13 +49,18 @@
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="AccessSpecifierMethods.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="BookInheritance.cs" />
     <Compile Include="ConstructorExample.cs" />
     <Compile Include="ConstructorExample2.cs" />
     <Compile Include="DerivedAccessSpecifierMethods.cs" />
+    <Compile Include="HierarchicalInheritance.cs" />
     <Compile Include="MainMethod.cs" />
     <Compile Include="MethodOverload.cs" />
+    <Compile Include="MultiLevelInheritance.cs" />
     <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleInheritance.cs" />
+    <Compile Include="WithoutInheritanceExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

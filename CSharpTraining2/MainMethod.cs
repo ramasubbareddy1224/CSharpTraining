@@ -34,26 +34,52 @@ namespace CSharpTraining2
 
             // obj.Overload(count);
 
-            PropertiesExample obj = new PropertiesExample();
-            obj.StudentId = 100;
-            obj.FirstName = "Christopher";
-            obj.Lastname = "Nolan";
-            obj.Email = "nolan@gmail.com";
+            // PropertiesExample obj = new PropertiesExample();
+            // obj.StudentId = 100;
+            // obj.FirstName = "Christopher";
+            // obj.Lastname = "Nolan";
+            // obj.Email = "nolan@gmail.com";
 
-            // acccess properties
-            obj.PropStudentId = 100;
-            obj.PropFirstName = "Christopher";
-            obj.PropLastName = "Nolan";
-            obj.PropEmail = "nolan@gmail.com";
-            // obj.PropFullName = "aaa";
-           // obj.PropFullName = "aaa";
+            // // acccess properties
+            // obj.PropStudentId = 100;
+            // obj.PropFirstName = "Christopher";
+            // obj.PropLastName = "Nolan";
+            // obj.PropEmail = "nolan@gmail.com";
+            // // obj.PropFullName = "aaa";
+            //// obj.PropFullName = "aaa";
 
 
-            Console.WriteLine("My full Name:" + obj.PropFullName);
+            // Console.WriteLine("My full Name:" + obj.PropFullName);
 
-           // Console.WriteLine("My full Name:"+obj.GetFullName());
+            // Console.WriteLine("My full Name:"+obj.GetFullName());
 
-           // obj.PrintStudentDetails();
+            // obj.PrintStudentDetails();
+
+
+            //Console.WriteLine("Ebook details");
+            //EBook obj = new EBook();
+            //obj.BuyBook();
+
+            //Console.WriteLine("\n");
+            //Console.WriteLine("PaperBook details");
+            //PaperBook obj2 = new PaperBook();
+            //obj2.BuyBook();
+
+            // DerivedClass obj = new DerivedClass();
+            //obj.Name = "Main Method Call";
+            // obj.
+            // obj.
+            //obj.DerivedMethod();
+
+            //Derived1Class obj = new Derived1Class();
+            //obj.Derived1Method();
+
+            //DerivedLevel3Class obj = new DerivedLevel3Class();
+            //obj.Level3Method();
+
+            PaperBookDerived obj = new PaperBookDerived();
+            obj.CourerBook();
+
 
             Console.ReadLine();
         }

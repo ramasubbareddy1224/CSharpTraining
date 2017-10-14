@@ -34,14 +34,14 @@ namespace CSharpTraining2
             {
                 return PropFirstName + " " + PropLastName;
             }
-           // private set; 
+          // pu set;
         }
         public string PropEmail { get; set; }
 
 
         public void PrintStudentDetails()
         {
-            FullName = FirstName + " " + Lastname;
+          FullName = FirstName + " " + Lastname;
             Console.WriteLine("Student Id:" + StudentId);
             Console.WriteLine("Student First Name:" + FirstName);
             Console.WriteLine("Student Last Name:" + Lastname);
