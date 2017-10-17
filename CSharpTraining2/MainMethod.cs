@@ -77,9 +77,16 @@ namespace CSharpTraining2
             //DerivedLevel3Class obj = new DerivedLevel3Class();
             //obj.Level3Method();
 
-            PaperBookDerived obj = new PaperBookDerived();
-            obj.CourerBook();
+            //PaperBookDerived obj = new PaperBookDerived();
+            //obj.CourerBook();
 
+            // SuzikiBalino obj = new SuzikiBalino();
+            //// obj.Test();
+            // obj.DisplayMessage();
+
+            // ClassImplement obj = new ClassImplement();
+            StringBuilderExample obj = new StringBuilderExample();
+            obj.PrintData();
 
             Console.ReadLine();
         }
