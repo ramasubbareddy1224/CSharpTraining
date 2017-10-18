@@ -85,8 +85,17 @@ namespace CSharpTraining2
             // obj.DisplayMessage();
 
             // ClassImplement obj = new ClassImplement();
-            StringBuilderExample obj = new StringBuilderExample();
-            obj.PrintData();
+            //StringBuilderExample obj = new StringBuilderExample();
+            //obj.PrintData();
+
+            //ArrayExample obj = new ArrayExample();
+            //obj.CallArray();
+
+            //ArrayExample2 obj = new ArrayExample2();
+            //Console.WriteLine("Your total Marks:" + obj.PrintStudentMarks());
+
+            ExceptionHandling obj = new ExceptionHandling();
+            obj.CallException();
 
             Console.ReadLine();
         }

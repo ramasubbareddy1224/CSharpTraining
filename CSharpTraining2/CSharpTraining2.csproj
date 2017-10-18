@@ -50,10 +50,13 @@
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="AccessSpecifierMethods.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="ArrayExample.cs" />
+    <Compile Include="ArrayExample2.cs" />
     <Compile Include="BookInheritance.cs" />
     <Compile Include="ConstructorExample.cs" />
     <Compile Include="ConstructorExample2.cs" />
     <Compile Include="DerivedAccessSpecifierMethods.cs" />
+    <Compile Include="ExceptionHandling.cs" />
     <Compile Include="HierarchicalInheritance.cs" />
     <Compile Include="InterfaceExample.cs" />
     <Compile Include="MainMethod.cs" />
