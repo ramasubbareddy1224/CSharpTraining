@@ -15,6 +15,8 @@ namespace CSharpTraining2
             lst.Add(20);
             lst.Add("siva");
 
+            //int num=Convert.ToInt32(lst[1]);
+
             Console.WriteLine("using for loop");
             for (int i = 0; i < lst.Count; i++)
             {

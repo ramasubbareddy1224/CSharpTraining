@@ -103,9 +103,40 @@ namespace CSharpTraining2
             //StackExample obj = new StackExample();
             //obj.LoadItems();
 
-            QueueExample obj = new QueueExample();
-            obj.LoadItems();
+            //QueueExample obj = new QueueExample();
+            //obj.LoadItems();
 
+            //GenericCollectionExample obj = new GenericCollectionExample();
+            //obj.LoadItems();
+
+            //DictionaryExample obj = new DictionaryExample();
+            //obj.LoadItems();
+
+            //TernaryOperatorExample obj = new TernaryOperatorExample();
+            //obj.Execute();
+
+            //VarObjKeywordExample obj = new VarObjKeywordExample();
+            //obj.Execute();
+
+            //ReadOnlyConstExample obj = new ReadOnlyConstExample();
+            //obj.Execute();
+
+            //RefOutExample obj = new RefOutExample();
+            //obj.Execute();
+
+            //StaticClassExample.MyStaticMethod();
+            //StaticClassExample obj = new StaticClassExample();
+
+            //StaticExample2 obj = new StaticExample2();
+            //// obj.Count = 20;
+            //StaticExample2.Count = 20;
+            //obj.Print();
+
+            //StaticExample2 obj2 = new StaticExample2();
+            //obj2.Print();
+
+            FileStreamExample obj = new FileStreamExample();
+            obj.Execute();
 
             Console.ReadLine();
         }
