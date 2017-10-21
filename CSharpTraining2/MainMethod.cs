@@ -94,8 +94,18 @@ namespace CSharpTraining2
             //ArrayExample2 obj = new ArrayExample2();
             //Console.WriteLine("Your total Marks:" + obj.PrintStudentMarks());
 
-            ExceptionHandling obj = new ExceptionHandling();
-            obj.CallException();
+            //ExceptionHandling obj = new ExceptionHandling();
+            //obj.CallException();
+
+            //ArrayListExample obj = new ArrayListExample();
+            //obj.LoadItems();
+
+            //StackExample obj = new StackExample();
+            //obj.LoadItems();
+
+            QueueExample obj = new QueueExample();
+            obj.LoadItems();
+
 
             Console.ReadLine();
         }

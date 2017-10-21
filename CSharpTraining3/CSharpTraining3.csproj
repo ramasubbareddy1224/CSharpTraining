@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CSharpTraining3.LoopExample</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArthemeticExample.cs" />
+    <Compile Include="DecisionExample.cs" />
+    <Compile Include="IfElseIfExample.cs" />
+    <Compile Include="LogicalOperatorExample.cs" />
+    <Compile Include="LoopExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleProgram.cs" />
+    <Compile Include="SwitchExample.cs" />
+    <Compile Include="TypeConversionExample.cs" />
+    <Compile Include="UnaryOperatorExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

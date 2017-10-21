@@ -52,6 +52,7 @@
     <Compile Include="Addition.cs" />
     <Compile Include="ArrayExample.cs" />
     <Compile Include="ArrayExample2.cs" />
+    <Compile Include="ArrayListExample.cs" />
     <Compile Include="BookInheritance.cs" />
     <Compile Include="ConstructorExample.cs" />
     <Compile Include="ConstructorExample2.cs" />
@@ -64,7 +65,9 @@
     <Compile Include="MultiLevelInheritance.cs" />
     <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueExample.cs" />
     <Compile Include="SingleInheritance.cs" />
+    <Compile Include="StackExample.cs" />
     <Compile Include="StringBuilderExample.cs" />
     <Compile Include="WithoutInheritanceExample.cs" />
   </ItemGroup>
