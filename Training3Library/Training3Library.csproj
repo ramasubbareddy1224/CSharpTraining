@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{234BF014-57E6-4F6B-B20B-5CDAE15CAD47}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{2B7E35BC-4A9F-4484-853C-7254E705C00C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharpTraining3</RootNamespace>
-    <AssemblyName>CSharpTraining3</AssemblyName>
+    <RootNamespace>Training3Library</RootNamespace>
+    <AssemblyName>Training3Library</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,16 +22,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CSharpTraining3.MainMethod</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,32 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessSpecifierExample.cs" />
-    <Compile Include="Addition.cs" />
-    <Compile Include="ArthemeticExample.cs" />
-    <Compile Include="ConstructorExample.cs" />
-    <Compile Include="DecisionExample.cs" />
-    <Compile Include="IfElseIfExample.cs" />
-    <Compile Include="LogicalOperatorExample.cs" />
-    <Compile Include="LoopExample.cs" />
-    <Compile Include="MainMethod.cs" />
-    <Compile Include="MethodOverloadExample.cs" />
-    <Compile Include="PropertiesExample.cs" />
+    <Compile Include="InternalTest2Example.cs" />
+    <Compile Include="InternalTestExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SampleProgram.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="SwitchExample.cs" />
-    <Compile Include="TypeConversionExample.cs" />
-    <Compile Include="UnaryOperatorExample.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Training3Library\Training3Library.csproj">
-      <Project>{2b7e35bc-4a9f-4484-853c-7254e705c00c}</Project>
-      <Name>Training3Library</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

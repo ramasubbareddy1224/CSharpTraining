@@ -4,3 +4,5 @@ D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraini
 D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining3\obj\Debug\CSharpTraining3.exe
 D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining3\obj\Debug\CSharpTraining3.pdb
 D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining3\obj\Debug\CSharpTraining3.csprojResolveAssemblyReference.cache
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining3\bin\Debug\Training3Library.dll
+D:\Rama\DotNet Training Material\Class Room Training\CSharpTraining\CSharpTraining3\bin\Debug\Training3Library.pdb
