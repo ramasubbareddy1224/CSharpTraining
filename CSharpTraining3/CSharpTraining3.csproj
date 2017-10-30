@@ -56,9 +56,11 @@
     <Compile Include="LoopExample.cs" />
     <Compile Include="MainMethod.cs" />
     <Compile Include="MethodOverloadExample.cs" />
+    <Compile Include="MultilevelInheritance.cs" />
     <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleProgram.cs" />
+    <Compile Include="SingleInheritance.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SwitchExample.cs" />
     <Compile Include="TypeConversionExample.cs" />

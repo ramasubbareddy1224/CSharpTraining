@@ -41,29 +41,34 @@ namespace CSharpTraining3
             //MethodOverloadExample obj = new MethodOverloadExample();
             //obj.OverloadMethod(10, name);
 
-            PropertiesExample obj = new PropertiesExample();
-           
-            obj.Id = 100;
-            obj.Name = "rama";
-            obj.Email = "rama@microsoft.com";
-            obj.EmployeeCount = 50;
+            //PropertiesExample obj = new PropertiesExample();
 
-            obj.PropId = 101;
-            obj.PropFirstName = "rama1";
-            obj.PropLastName = "subba";
-            obj.PropEmail = "rama1@microsoft.com";
-            //obj.PropEmployeeCount = 10;
+            //obj.Id = 100;
+            //obj.Name = "rama";
+            //obj.Email = "rama@microsoft.com";
+            //obj.EmployeeCount = 50;
 
-            
+            //obj.PropId = 101;
+            //obj.PropFirstName = "rama1";
+            //obj.PropLastName = "subba";
+            //obj.PropEmail = "rama1@microsoft.com";
+            ////obj.PropEmployeeCount = 10;
 
-            obj.PrintEmployeeDetails();
 
-            Console.WriteLine("propFullName:" + obj.PropFullName);
+
+            //obj.PrintEmployeeDetails();
+
+            //Console.WriteLine("propFullName:" + obj.PropFullName);
 
             //Console.WriteLine("employee count:"+obj.EmployeeCount);
             //  Console.WriteLine("propemployee count:" + obj.PropEmployeeCount);
 
 
+            //DerivedSingleInheritace obj = new DerivedSingleInheritace();
+            //obj.DerivedMethod();
+
+            Derived2MulitiLevel obj = new Derived2MulitiLevel();
+            obj.Derived2Method();
 
             Console.Read();
         }
