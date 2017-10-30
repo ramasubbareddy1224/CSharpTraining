@@ -51,6 +51,7 @@
     <Compile Include="ArthemeticExample.cs" />
     <Compile Include="ConstructorExample.cs" />
     <Compile Include="DecisionExample.cs" />
+    <Compile Include="HierarchicalInheritance.cs" />
     <Compile Include="IfElseIfExample.cs" />
     <Compile Include="LogicalOperatorExample.cs" />
     <Compile Include="LoopExample.cs" />
