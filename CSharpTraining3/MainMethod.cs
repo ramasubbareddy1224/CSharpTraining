@@ -67,10 +67,67 @@ namespace CSharpTraining3
             //DerivedSingleInheritace obj = new DerivedSingleInheritace();
             //obj.DerivedMethod();
 
-            Derived2MulitiLevel obj = new Derived2MulitiLevel();
-            obj.Derived2Method();
+            //Derived2MulitiLevel obj = new Derived2MulitiLevel();
+            //obj.Derived2Method();
+
+            //DerivedSingleInheritace obj = new DerivedSingleInheritace();
+            //obj.DerivedMethod();
+            //obj.TestMethod();
+
+            //BaseInheritance objbase = new BaseInheritance();
+            //objbase.BaseMethod();
+
+            //BaseInheritance objParent = new DerivedSingleInheritace();
+            //objParent.TestMethod();
+
+            //SuzikiBalino obj = new SuzikiBalino();
+            //obj.DisplayMessage();
+
+            //Console.WriteLine("Print Ebook Details");
+            //WithoutInheritanceExample obj = new WithoutInheritanceExample();           
+            //obj.PrintEBookDetails();
+
+            //Console.WriteLine("Print PaperCopy Details");
+            //obj.PrintPaperBookDetails();
+
+            //Console.WriteLine("Print Ebook Details");
+            //EBook obj = new EBook();
+            //obj.PrintEBookDetails();
+
+            //Console.WriteLine("Print PaperCopy Details");
+            //PaperBook obj2 = new PaperBook();
+            //obj2.PrintPaperBookDetails();
+
+            IVehicle obj = new SuzikiBalinoInterface();
+            //obj.DisplayMessage();
+            obj.TestMethod();
+
+            //IVehicle obj2 = new SuzikiCiazInterface();
+            //obj2.DisplayMessage();
+
+            //IVehicle balinoObj = GetInterfaceObject("Balino");
+            //balinoObj.DisplayMessage();
+
+            //IVehicle ciazObj = GetInterfaceObject("Ciaz");
+            //ciazObj.DisplayMessage();
+
 
             Console.Read();
+        }
+
+        private static IVehicle GetInterfaceObject(string value)
+        {
+            IVehicle obj = null;
+            if (value == "Balino")
+            {
+                obj = new SuzikiBalinoInterface();
+            }
+            else if (value == "Ciaz")
+            {
+                obj = new SuzikiCiazInterface();
+            }
+
+            return obj;
         }
     }
 }

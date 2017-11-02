@@ -18,6 +18,11 @@ namespace CSharpTraining3
              Name = "Base Method";
             Console.WriteLine(Name);
         }
+        public void TestMethod()
+        {
+            Console.WriteLine("Base Test Method");
+        }
+       
     }
 
     public class DerivedSingleInheritace : BaseInheritance
@@ -28,9 +33,16 @@ namespace CSharpTraining3
         }
         public void DerivedMethod()
         {
+
+            TestMethod();
+            base.TestMethod();          
             BaseMethod();
             Name = "Derived Method";
             Console.WriteLine(Name);
+        }
+        public new void TestMethod()
+        {
+            Console.WriteLine("Derive Test Method");
         }
     }
 

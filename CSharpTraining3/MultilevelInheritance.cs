@@ -10,7 +10,6 @@ namespace CSharpTraining3
     {
         public BaseMultiLevelInheritance()
         {
-
         }
         public void BaseMethod()
         {
@@ -18,7 +17,7 @@ namespace CSharpTraining3
         }
     }
 
-    class Derived1MultiLevel : BaseMultiLevelInheritance
+   class Derived1MultiLevel : BaseMultiLevelInheritance
     {
         public Derived1MultiLevel()
         {
@@ -31,7 +30,7 @@ namespace CSharpTraining3
         }
     }
 
-    class Derived2MulitiLevel : Derived1MultiLevel
+   sealed class Derived2MulitiLevel : Derived1MultiLevel
     {
         public Derived2MulitiLevel()
         {
@@ -44,4 +43,5 @@ namespace CSharpTraining3
             Console.WriteLine("Derived2 Method");
         }
     }
+    
 }
