@@ -98,9 +98,9 @@ namespace CSharpTraining3
             //PaperBook obj2 = new PaperBook();
             //obj2.PrintPaperBookDetails();
 
-            IVehicle obj = new SuzikiBalinoInterface();
+            // IVehicle obj = new SuzikiBalinoInterface();
             //obj.DisplayMessage();
-            obj.TestMethod();
+            // obj.TestMethod();
 
             //IVehicle obj2 = new SuzikiCiazInterface();
             //obj2.DisplayMessage();
@@ -111,6 +111,11 @@ namespace CSharpTraining3
             //IVehicle ciazObj = GetInterfaceObject("Ciaz");
             //ciazObj.DisplayMessage();
 
+            //StringBuilderExample obj = new StringBuilderExample();
+            //obj.PrintData();
+
+            ExceptionExample obj = new ExceptionExample();
+            obj.PrintData();
 
             Console.Read();
         }

@@ -49,9 +49,11 @@
     <Compile Include="AbstractClassExample.cs" />
     <Compile Include="AccessSpecifierExample.cs" />
     <Compile Include="Addition.cs" />
+    <Compile Include="ArrayExample.cs" />
     <Compile Include="ArthemeticExample.cs" />
     <Compile Include="ConstructorExample.cs" />
     <Compile Include="DecisionExample.cs" />
+    <Compile Include="ExceptionExample.cs" />
     <Compile Include="HierarchicalInheritance.cs" />
     <Compile Include="IfElseIfExample.cs" />
     <Compile Include="InterfaceExample.cs" />
@@ -64,6 +66,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleProgram.cs" />
     <Compile Include="SingleInheritance.cs" />
+    <Compile Include="StringBuilderExample.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SwitchExample.cs" />
     <Compile Include="TypeConversionExample.cs" />

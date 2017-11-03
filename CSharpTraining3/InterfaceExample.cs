@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace CSharpTraining3
 {
+    public interface IDummy {
+        void DummyMethod();
+    }
 
     public class BaseC
     {
 
     }
-    public interface ITest
+    public interface ITest :IDummy
     {
         void TestMethod();
 
@@ -35,6 +38,11 @@ namespace CSharpTraining3
 
             Color = "Royal Blue";
             Console.WriteLine("Suziki Balino with : " + Color);
+        }
+
+        public void DummyMethod()
+        {
+            throw new NotImplementedException();
         }
 
         void ITest.TestMethod()
