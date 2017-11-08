@@ -114,8 +114,56 @@ namespace CSharpTraining3
             //StringBuilderExample obj = new StringBuilderExample();
             //obj.PrintData();
 
-            ExceptionExample obj = new ExceptionExample();
-            obj.PrintData();
+            //ExceptionExample obj = new ExceptionExample();
+            //obj.PrintData();
+
+            //ArrayListExample obj = new ArrayListExample();
+            //obj.PrintData();
+
+            //StackExample obj = new StackExample();
+            //obj.PrintData();
+
+            //QueueExample obj = new QueueExample();
+            //obj.PrintData();
+
+            //GenericListExample obj = new GenericListExample();
+            //obj.PrintData();
+
+            //GenericStackExample obj = new GenericStackExample();
+            //obj.PrintData(); 
+
+            //DictionaryExample obj = new DictionaryExample();
+            //obj.PrintData();
+
+            //refoutexample obj = new refoutexample();
+            //int normalcount = 10;
+            //Console.WriteLine("normal count:"+normalcount);
+            //obj.PrintData(out normalcount);
+            //Console.WriteLine("normal count after method complete:" + normalcount);
+
+            //StaticExample obj = new StaticExample();
+            //obj.length = 200;
+            //Console.WriteLine(obj.length);
+            //StaticExample.PrintData();
+
+            //StaticExample obj2 = new StaticExample();
+            //Console.WriteLine(obj2.length);
+
+            //StaticExample2 obj = new StaticExample2();
+            //StaticExample2.Length = 200;
+            //obj.PrintData();
+
+
+            //StaticExample2 obj2 = new StaticExample2();
+            //obj2.PrintData();
+
+            //FileStreamExample obj = new FileStreamExample();
+            //obj.CallFile();
+
+            StreamReaderExample obj = new StreamReaderExample();
+            obj.ReadData();
+
+
 
             Console.Read();
         }
